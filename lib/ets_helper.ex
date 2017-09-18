@@ -30,7 +30,7 @@ defmodule EtsHelper do
   ```bash
   iex> EtsHelper.insert(:my_table, {"key", "data"})
   iex> EtsHelper.insert(:my_table, {:key, :data})
-  iex> EtsHelper.insert(:my_table, {{:key, 2}, {1, 2, 3})
+  iex> EtsHelper.insert(:my_table, {{:key, 2}, {1, 2, 3}})
   ```  
 
   * Get data
